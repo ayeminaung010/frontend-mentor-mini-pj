@@ -1,0 +1,36 @@
+$primary:hsl(0, 0%, 8%);
+$btn-padding-x:1.5rem;
+$btn-border-radius:13px;
+$navbar-padding-y: 1rem;
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap');
+$font-family-sans-serif:'Epilogue',
+sans-serif;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import"../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+$navbar-links-color: hsl(0,
+0%,
+41%);
+@media only screen and (max-width: 700px) {
+    .mobile-section {
+        text-align: center;
+    }
+    .mobile-img {
+        width: 60px;
+    }
+    #navbarContent .nav-link {
+        text-align: center;
+        border: 1px solid $navbar-links-color;
+        border-radius: 12px;
+        margin-bottom: 5px;
+    }
+    #buttonNavBar {
+        display: flex;
+        flex-direction: column;
+    }
+    #navbarContent {
+        margin-top: 10px;
+    }
+    .dropdown-menu {
+        text-align: center;
+    }
+}
